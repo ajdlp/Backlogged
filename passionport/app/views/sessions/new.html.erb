@@ -1,0 +1,26 @@
+<h1>homepage</h1>
+
+<div id="home">
+  <span id="loginform">
+    <h1 id="title">[ Backlogged ]</h1>
+
+    <%= form_for :session, url: login_path do |f| %>
+    <p>
+      <%= f.label :username %><br>
+      <%= f.text_field :username%>
+    </p>
+
+    <p>
+      <%= f.label :password %><br>
+      <%= f.text_field :password%>
+    </p>
+
+    <p>
+      <%= f.submit %>
+    </p>
+    <% end %>
+
+    <p>New user?<%= link_to "Sign up:", new_user_path %></p>
+  </span>
+</div>
+
