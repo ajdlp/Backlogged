@@ -1,9 +1,10 @@
-class UserController < ApplicationController
-  def homepage
-  end
-
+class UsersController < ApplicationController
   def index
     @user = User.find(user_params)
+  end
+
+  def new
+    @user = User.new
   end
 
   def create
@@ -19,5 +20,5 @@ end
 
 private
 def user_params
-  params.require(:user).permit(:username, :password)
+  params.require(:user).permit(:username, :password, :email, :name)
 end

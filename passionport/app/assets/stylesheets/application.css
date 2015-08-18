@@ -13,3 +13,361 @@
  *= require_tree .
  *= require_self
  */
+
+* {
+    font-family: 'Press Start 2P', cursive;
+    font-size: medium;
+
+}
+
+
+#home {
+    background-image: url("http://media.giphy.com/media/jNCT0DtwX6GFG/giphy.gif");
+      -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+    background-size: 80%;
+}
+
+#title {
+    color: white;
+    width: 165%;
+    left: -15em;
+}
+
+#loginform {
+    display: block;
+    width: 25%;
+    padding-left: 4em;
+    padding-top: 4em;
+    padding-bottom: 5em;
+    padding-right: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #5C85AD;
+     -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+    border: #1A3366 solid .5em;
+    margin-top: 10em;
+
+}
+
+.signup{
+    display: block;
+    width: 25%;
+    padding-left: 3em;
+    padding-top: .5em;
+    padding-bottom: 1.5em;
+    padding-right: -4em;
+    margin: 0 auto;
+    background-color: #5C85AD;
+     -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+    border: #1A3366 solid .5em;
+    color: white;
+}
+
+#signup {
+    background-image: url("http://media.giphy.com/media/jNCT0DtwX6GFG/giphy.gif");
+    background-size: 80%;
+}
+
+#profilehead {
+    text-align: center;
+    color: white;
+}
+
+#profilebackground {
+    background-image: url("http://www.hamsteralliance.com/wallpaper/THA-mode7city_1600.png");
+    background-size: cover;
+}
+
+#platforms li {
+    display: inline-block;
+    padding: 4.4em;
+}
+
+#addgame {
+    display: block;
+    text-align: center;
+}
+
+#gametable {
+    width: 29%;
+    display: block;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+.pure-table {
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.games {
+    background-image: url("http://img00.deviantart.net/0a1b/i/2006/010/c/f/retro_nes_by_dark_mac.jpg");
+    background-size: cover;
+}
+
+tr {
+    background-color: white;
+}
+
+tr:hover {
+    background-color: #99B2CC;
+}
+
+.nes {
+    padding: 4.5em;
+    background-image: url("http://icons.iconarchive.com/icons/hopstarter/gaming/256/Nintendo-NES-icon.png");
+    background-size: cover;
+    -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+}
+
+.snes {
+    padding: 4.5em;
+    background-image: url("http://fc05.deviantart.net/fs70/f/2012/218/0/f/snes_controller_by_doctor_g-d5a3ica.jpg");
+    background-size: cover;
+    -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+}
+
+.n64 {
+    padding: 4.5em;
+    background-image: url("https://farm5.staticflickr.com/4133/5199018246_7a51a2a132_n.jpg");
+    background-size: cover;
+    -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+}
+
+.gamecube {
+    padding: 4.5em;
+    background-image: url("http://orig04.deviantart.net/52df/f/2013/244/d/f/gamecube_controller_by_doctor_g-d6kkgjo.png");
+    background-size: cover;
+    -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+}
+
+.segagenesis {
+    padding: 4.5em;
+    background-image: url("http://icons.iconarchive.com/icons/hopstarter/3d-cartoon-vol3/256/Sega-Genesis-icon.png");
+    background-size: cover;
+    -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+}
+
+.playstation {
+    padding: 4.5em;
+    background-image: url("http://www.gencs.eu/uploads/patents%20and%20trademarks/logo,0-K-9092-3-771176.jpg");
+    background-size: cover;
+    -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+}
+
+.playstation2 {
+    padding: 4.5em;
+    background-image: url("http://www.gamediscovery.com/images/news/txt_icon/Playstation%202-logo.gif");
+    background-size: cover;
+    -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+}
+
+.xbox360 {
+    padding: 4.5em;
+    background-image: url("http://1.bp.blogspot.com/_nQ8R-170d3c/TGjB2ZP3RhI/AAAAAAAABB8/R2jS4hVpKJ0/s1600/Xbox-360-globe.png");
+    background-size: cover;
+    -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+}
+
+.ps3 {
+    padding: 4.5em;
+    background-image: url("http://newsuperhacks.com/wp-content/uploads/2014/02/ps3_logo_icon_by_wolfangraul-d3bne6l.png");
+    background-size: cover;
+    -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+}
+
+.wii {
+    padding: 4.5em;
+    background-image: url("http://www.icons101.com/icon_ico/id_81888/Wii.ico");
+    background-size: cover;
+    -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+}
+
+.ps4 {
+    padding: 4.5em;
+    background-image: url("http://www.brandsoftheworld.com/sites/default/files/styles/logo-thumbnail/public/022013/ps4-logo.png?itok=jDbsYsLE");
+    background-size: cover;
+    -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+}
+
+.xboxone {
+    padding: 4.5em;
+    background-image: url("http://a4.mzstatic.com/us/r30/Purple4/v4/41/5b/d9/415bd99f-eda5-8c45-6bfa-99eaf1c2bcc1/icon_256.png");
+    background-size: cover;
+    -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+}
+/****************************NAV BAR**********************/
+
+.custom-menu-wrapper {
+    background-color: #5C85AD;
+    margin-bottom: 2.5em;
+    white-space: nowrap;
+    position: relative;
+    bottom-border: yellow solid .3em;
+}
+
+.custom-menu {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+    -webkit-font-smoothing: antialiased;
+}
+
+.custom-menu .pure-menu-link,
+.custom-menu .pure-menu-heading {
+    color: white;
+}
+
+.custom-menu .pure-menu-link:hover,
+.custom-menu .pure-menu-heading:hover {
+    background-color: transparent;
+}
+
+.custom-menu-top {
+    position: relative;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+.custom-menu-brand {
+    display: block;
+    text-align: center;
+    position: relative;
+    float: right;
+}
+
+.custom-menu-toggle {
+    width: 44px;
+    height: 44px;
+    display: block;
+    position: absolute;
+    top: 3px;
+    right: 0;
+    display: none;
+}
+
+.custom-menu-toggle .bar {
+    background-color: white;
+    display: block;
+    width: 20px;
+    height: 2px;
+    border-radius: 100px;
+    position: absolute;
+    top: 22px;
+    right: 12px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.custom-menu-toggle .bar:first-child {
+    -webkit-transform: translateY(-6px);
+    -moz-transform: translateY(-6px);
+    -ms-transform: translateY(-6px);
+    transform: translateY(-6px);
+}
+
+.custom-menu-toggle.x .bar {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.custom-menu-toggle.x .bar:first-child {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.custom-menu-screen {
+    background-color: rgba(0, 0, 0, 0.5);
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+    height: 3em;
+    width: 70em;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.custom-menu-tucked .custom-menu-screen {
+    -webkit-transform: translateY(-44px);
+    -moz-transform: translateY(-44px);
+    -ms-transform: translateY(-44px);
+    transform: translateY(-44px);
+}
+
+@media (max-width: 62em) {
+
+    .custom-menu {
+        display: block;
+    }
+
+    .custom-menu-toggle {
+        display: block;
+        display: none\9;
+    }
+
+    .custom-menu-bottom {
+        position: absolute;
+        max-width: 100%;
+        border-top: 1px solid #eee;
+        background-color: #808080\9;
+        z-index: 100;
+    }
+
+    .custom-menu-bottom .pure-menu-link {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -ms-transition: all 0.5s;
+        transition: all 0.5s;
+    }
+
+    .custom-menu-bottom.custom-menu-tucked .pure-menu-link {
+        -webkit-transform: translateX(-140px);
+        -moz-transform: translateX(-140px);
+        -ms-transform: translateX(-140px);
+        transform: translateX(-140px);
+        opacity: 0;
+        opacity: 1\9;
+    }
+
+    .pure-menu-horizontal.custom-menu-tucked {
+        z-index: -1;
+        top: 45px;
+        position: absolute;
+        overflow: hidden;
+    }
+
+}

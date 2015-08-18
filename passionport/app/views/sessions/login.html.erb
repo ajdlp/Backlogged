@@ -1,6 +1,4 @@
-<h1>homepage</h1>
-
-<div id="home">
+<body id="home">
   <span id="loginform">
     <h1 id="title">[ Backlogged ]</h1>
 
@@ -11,16 +9,15 @@
     </p>
 
     <p>
-      <%= f.label :password %><br>
-      <%= f.text_field :password%>
+      <%= f.label :password %><br>      <%= f.text_field :password%>
     </p>
 
     <p>
-      <%= f.submit %>
+      <%= f.submit "Login"%>
     </p>
     <% end %>
-
-    <p>New user?<%= link_to "Sign up:", new_user_path %></p>
+    <br>
+    <p>New user? <%= link_to "Sign up:", new_user_path %></p>
   </span>
-</div>
+</body>
 
