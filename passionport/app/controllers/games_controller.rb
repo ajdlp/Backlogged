@@ -1,7 +1,7 @@
 class GamesController < ApplicationController
   def show
      @games = current_user.games
-     @owned_games = current_user.owned_games
+     @backlogged_games = current_user.backlogged_games
      render 'show'
   end
 
@@ -15,7 +15,7 @@ class GamesController < ApplicationController
   end
 
   def delete
-    OwnedGame.find(params[:owned_game_id]).delete
+    BackloggedGame.find(params[:owned_game_id]).delete
   end
 
 end
