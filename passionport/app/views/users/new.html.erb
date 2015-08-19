@@ -1,7 +1,8 @@
 <body id="signup">
 
   <span class="signup">
-    <h1> Sign-Up Below</h1>
+          <h1 id="signuphead"> Sign-Up Below</h1>
+
     <%= form_for(@user) do |f| %>
 
      <p>
@@ -29,7 +30,7 @@
     </p>
     <% end %>
 
-    <p><%= link_to "Signup", sessions_login_path %></p>
+    <p><%= link_to "Back to Login", sessions_login_path %></p>
   </span>
 </body>
 

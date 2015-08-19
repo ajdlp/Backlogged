@@ -16,9 +16,16 @@ class UsersController < ApplicationController
       render 'new'
     end
   end
+
+  def show
+    render 'show'
+  end
+
+
+
 end
 
 private
 def user_params
-  params.require(:user).permit(:username, :password, :email, :name)
+  params.require(:user).permit(:username, :password, :email, :name) #d
 end
