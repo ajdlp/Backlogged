@@ -21,7 +21,7 @@
         <tbody>
 
          <% @games.each_with_index do |game, index| %>
-            <%= render "_addrow" %>
+            <%= render partial: "addrow", locals%>
         <% end %>
     </tbody>
 </table>

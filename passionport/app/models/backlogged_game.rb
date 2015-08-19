@@ -1,4 +1,4 @@
-class OwnedGame < ActiveRecord::Base
+class BackloggedGame < ActiveRecord::Base
   belongs_to :user
   belongs_to :game
 end

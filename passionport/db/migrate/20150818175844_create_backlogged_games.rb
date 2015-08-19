@@ -1,6 +1,6 @@
-class CreateOwnedGames < ActiveRecord::Migration
+class CreateBackloggedGames < ActiveRecord::Migration
   def change
-    create_table :owned_games do |t|
+    create_table :backlogged_games do |t|
       t.integer :user_id
       t.integer :game_id
 

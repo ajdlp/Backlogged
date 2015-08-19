@@ -1,8 +1,8 @@
-<tr class="<%= @owned_games[index].id %>">
+<tr class="<%= @backlogged_games[index].id %>">
   <td><img src= "<%= game.boxart %>"></td>
   <td><%=game.title%></td>
   <td><%= game.release_year %></td>
   <td><a href="https://www.google.com/#q=<%=game.title%>+guide">Guide</a></td>
   <td><a href="https://www.google.com/#q=<%=game.title%>+buy">Shop</a></td>
-  <td class="delete" id="<%=@owned_games[index].id%>"><button class="">X</button></td>
+  <td class="delete" id="<%=@backlogged_games[index].id%>"><button class="">X</button></td>
 </tr>
