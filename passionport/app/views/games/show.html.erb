@@ -1,7 +1,7 @@
 <body class="games">
     <div>
-         <form id= "addgame" action="/users/<%= current_user.id %>/games/show" method="post">
-            <input type="text" name="title" placehodler="Title">
+         <form id= "addgame" action="/users/<%= current_user.id %>/games" method="post">
+            <input type="text" name="title" placeholder="Title">
             <input type="submit" class="pure-button pure-button-primary" value="Add Game">
         </form>
     </div>
@@ -21,7 +21,7 @@
         <tbody>
 
          <% @games.each_with_index do |game, index| %>
-            <%= erb :"games/_addrow", locals: {game: game, index: index} %>
+            <%= render "_addrow" %>
         <% end %>
     </tbody>
 </table>
