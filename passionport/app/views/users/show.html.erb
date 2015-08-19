@@ -1,67 +1,78 @@
 <body id="profilebackground">
-    <h1 id="profilehead"> - <%= current_user.username %>'s Backlog - </h1>
+  <h1 id="profilehead"> - <%= current_user.username %>'s Backlog - </h1>
 
   <ul id="platforms">
-      <li>
-    <form action="/users/<%=current_user.id%>/games/show" method="get">
-      <button class ="nes platform" type="submit" </button>
-    </form>
-      </li>
-      <li>
-    <form action="#" method="get">
-      <button class ="snes platform" type="submit" </button>
-    </form>
-      </li>
-      <li>
-    <form action="#" method="get">
-      <button class ="n64 platform" type="submit" </button>
-    </form>
-      </li>
-       <li>
-    <form action="#" method="get">
-      <button class ="playstation platform" type="submit" </button>
-    </form>
-      </li>
-      <li>
-    <form action="#" method="get">
-      <button class ="gamecube platform" type="submit" </button>
-    </form>
-      </li>
-      <li>
-    <form action="#" method="get">
-      <button class ="segagenesis platform" type="submit" </button>
-    </form>
-      </li>
-       <li>
-    <form action="#" method="get">
-      <button class ="playstation2 platform" type="submit" </button>
-    </form>
-      </li>
-      <li>
-    <form action="#" method="get">
-      <button class ="xbox360 platform" type="submit" </button>
-    </form>
-      </li>
-      <li>
-    <form action="#" method="get">
-      <button class ="ps3 platform" type="submit" </button>
-    </form>
-      </li>
-      <li>
-    <form action="#" method="get">
-      <button class ="wii platform" type="submit" </button>
-    </form>
-      </li>
-      <li>
-    <form action="#" method="get">
-      <button class ="ps4 platform" type="submit" </button>
-    </form>
-      </li>
-      <li>
-    <form action="#" method="get">
-      <button class ="xboxone platform" type="submit" </button>
-    </form>
-      </li>
-    </ul>
+    <li>
+      <%= link_to "     ", user_games_path(current_user), class: :nes %>
+    </li>
+  </ul>
 
-  </body>
+
+
+
+
+
+  <!-- <ul id="platforms">
+    <li>
+      <form action="/users/<%=current_user.id%>/games/index" method="get">
+        <button class ="nes platform" type="submit" </button>
+        </form>
+      </li> --><!--
+      <li>
+        <form action="#" method="get">
+          <button class ="snes platform" type="submit" </button>
+          </form>
+        </li>
+        <li>
+          <form action="#" method="get">
+            <button class ="n64 platform" type="submit" </button>
+            </form>
+          </li>
+          <li>
+            <form action="#" method="get">
+              <button class ="playstation platform" type="submit" </button>
+              </form>
+            </li>
+            <li>
+              <form action="#" method="get">
+                <button class ="gamecube platform" type="submit" </button>
+                </form>
+              </li>
+              <li>
+                <form action="#" method="get">
+                  <button class ="segagenesis platform" type="submit" </button>
+                  </form>
+                </li>
+                <li>
+                  <form action="#" method="get">
+                    <button class ="playstation2 platform" type="submit" </button>
+                    </form>
+                  </li>
+                  <li>
+                    <form action="#" method="get">
+                      <button class ="xbox360 platform" type="submit" </button>
+                      </form>
+                    </li>
+                    <li>
+                      <form action="#" method="get">
+                        <button class ="ps3 platform" type="submit" </button>
+                        </form>
+                      </li>
+                      <li>
+                        <form action="#" method="get">
+                          <button class ="wii platform" type="submit" </button>
+                          </form>
+                        </li>
+                        <li>
+                          <form action="#" method="get">
+                            <button class ="ps4 platform" type="submit" </button>
+                            </form>
+                          </li>
+                          <li>
+                            <form action="#" method="get">
+                              <button class ="xboxone platform" type="submit" </button>
+                              </form>
+                            </li>
+                          </ul>
+
+                        </body> -->

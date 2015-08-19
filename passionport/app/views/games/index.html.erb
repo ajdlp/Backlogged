@@ -1,0 +1,39 @@
+<body class="games">
+    <div>
+
+        <%= form_for :game, html:{id: :addgame} do |f| %>
+            <p>
+                <%= f.text_field :title%>
+            </p>
+            <p>
+                <%= f.submit "Add"%>
+            </p>
+        <% end %>
+
+      <!--   <form id= "addgame" action="/users/<%= current_user.id %>/games" method="post">
+            <input type="text" name="title" placeholder="Title">
+            <input type="submit" class="pure-button pure-button-primary" value="Add Game">
+        </form>
+    </div> -->
+
+<div id="gametable">
+    <table class="pure-table pure-table-horizontal">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Title</th>
+                <th>Release</th>
+                <th>Guide</th>
+                <th>Shop</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+
+         <% @games.each_with_index do |game, index| %>
+            <%= render partial: "addrow", locals: {game: game, index: index} %>
+        <% end %>
+    </tbody>
+</table>
+</div>
+</body>
