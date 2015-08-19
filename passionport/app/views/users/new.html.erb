@@ -1,0 +1,36 @@
+<body id="signup">
+
+  <span class="signup">
+          <h1 id="signuphead"> Sign-Up Below</h1>
+
+    <%= form_for(@user) do |f| %>
+
+     <p>
+      <%= f.label :email %><br>
+      <%= f.text_field :email%>
+    </p>
+
+    <p>
+      <%= f.label :name %><br>
+      <%= f.text_field :name%>
+    </p>
+
+    <p>
+      <%= f.label :username %><br>
+      <%= f.text_field :username%>
+    </p>
+
+    <p>
+      <%= f.label :password %><br>
+      <%= f.text_field :password%>
+    </p>
+
+    <p>
+      <%= f.submit "signup 2 win"%>
+    </p>
+    <% end %>
+
+    <p><%= link_to "Back to Login", sessions_login_path %></p>
+  </span>
+</body>
+
