@@ -26,12 +26,12 @@ $(document).ready(function() {
 }).disableSelection();
 });
 
-
 var deleteGame = function(){
   $('#gametable').on('click', ".delete", function(){
     var id = $(this).attr("id")
+    debugger
     $.ajax({
-      url: '/delete/game',
+      url: '/users/:user_id/games/:id',
       method: "delete",
       data: {owned_game_id: id}
     }).done(function(response){
