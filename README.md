@@ -1,3 +1,22 @@
-# Backlogged
+Backlogged
+======
+**Backlogged** is a progress tracking service for keeping tabs on video games in your back log. It provides an organized way to document media users wish to consume in the future. Links to guides and purchasing options are provided as well.
 
-Tool for keeping track of media in your backlog
+#### Screenshot
+![Backlogged](https://github.com/ajdlp/ajdlp.github.io/blob/master/images/Backlogged.png)
+
+
+## License 
+* See [LICENSE](https://github.com/ajdlp/Backlogged/blob/master/LICENSE) file
+
+## Domain
+	- *launching soon on heroku*
+
+## Contact
+#### Developer
+* Homepage: alexdelapena.me
+* e-mail: ajdlp12@gmail.com
+* Twitter: [@Spanish_Peanut](https://twitter.com/spanish_peanut)
+* LinkedIn: [AlexDeLaPena](https://linkedin.com/in/alexdelapena)
+
+[![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=username&url=https://github.com/username/sw-name&title=sw-name&language=&tags=github&category=software) 
