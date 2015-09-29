@@ -1,6 +1,12 @@
-Backlogged
+Backlogged 
 ======
+
+-- Ported to Rails from Sinatra --
+
 **Backlogged** is a progress tracking service for keeping tabs on video games in your back log. It provides an organized way to document media users wish to consume in the future. Links to guides and purchasing options are provided as well.
+
+## Domain
+	- *launching soon on heroku*
 
 #### Screenshot
 ![Backlogged](https://github.com/ajdlp/ajdlp.github.io/blob/master/images/Backlogged.png)
@@ -9,8 +15,6 @@ Backlogged
 ## License 
 * See [LICENSE](https://github.com/ajdlp/Backlogged/blob/master/LICENSE) file
 
-## Domain
-	- *launching soon on heroku*
 
 ## Contact
 #### Developer
