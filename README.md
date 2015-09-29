@@ -3,7 +3,7 @@ Backlogged
 
 -- Ported to Rails from Sinatra --
 
-**Backlogged** is a progress tracking service for keeping tabs on video games in your back log. It provides an organized way to document media users wish to consume in the future. Links to guides and purchasing options are provided as well.
+**Backlogged** is a progress tracking service for keeping tabs on video games in your back log. It provides an organized way to document media users wish to consume in the future. Links to game guides and purchasing options are provided as well.
 
 ## Domain
 	- *launching soon on heroku*
