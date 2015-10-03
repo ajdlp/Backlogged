@@ -1,6 +1,7 @@
 <body class="games">
     <div>
          <form id= "addgame" action="/users/<%= current_user.id %>/games" method="post">
+         <%= tag(:input, :type => "hidden", :name => request_forgery_protection_token.to_s, :value => form_authenticity_token) %> 
             <input type="text" name="title" placeholder="Title">
             <input type="submit" class="pure-button pure-button-primary" value="Add Game">
         </form>
