@@ -11,7 +11,7 @@ class GamesController < ApplicationController
       game = Game.find_by(title: params[:title])
       current_user.games << game if game
     end
-    redirect_to 'show'
+    render 'show'
   end
 
   def delete
