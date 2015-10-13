@@ -14,12 +14,10 @@ class UsersController < ApplicationController
       log_in(@user)
       redirect_to @user
     else
-      render 'new'
     end
   end
 
   def show
-    render 'show'
   end
 
 end

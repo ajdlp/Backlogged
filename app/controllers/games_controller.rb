@@ -2,7 +2,6 @@ class GamesController < ApplicationController
   def show
      @games = current_user.games
      @backlogged_games = current_user.backlogged_games
-     render 'show'
   end
 
   def create
@@ -11,7 +10,6 @@ class GamesController < ApplicationController
       game = Game.find_by(title: params[:title])
       current_user.games << game if game
     end
-    render 'show'
   end
 
   def delete
