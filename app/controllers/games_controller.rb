@@ -10,6 +10,7 @@ class GamesController < ApplicationController
       game = Game.find_by(title: params[:title])
       current_user.games << game if game #associate game with user if game entered in search bar exists
     end
+    redirect_to user_game_path
   end
 
   def delete
