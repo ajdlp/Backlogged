@@ -1,4 +1,8 @@
 class GamesController < ApplicationController
+
+  def get_user
+  end
+
   def show
      @games = current_user.games
      @backlogged_games = current_user.backlogged_games
